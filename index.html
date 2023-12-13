@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Máy tính tuổi thông minh</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div>
+        <h1 class="title">MÁY TÍNH TUỔI THÔNG MINH</h1>
+        <div class="container">
+            <label for="name">Họ và tên:</label>
+            <input type="text" name="name" id="name" placeholder="Nhập họ và tên" required>
+            <label for="age">Tuổi: </label>
+            <input type="number" name="age" id="age" placeholder="Nhập tuổi" required>
+
+            <div class="result">
+                <p id="resultText" style="display: none;">Xin chào bạn Long, bạn đã 15 tuổi rồi!</p>
+            </div>
+
+            <button onclick="calculateAge()" class="button-64" role="button"><span class="text">Tính
+                    tuổi</span></button>
+
+        </div>
+    </div>
+    <script src="script.js"></script>
+
+</body>
+
+</html>
